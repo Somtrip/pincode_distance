@@ -12,5 +12,7 @@ public class RouteResponse {
     private String toPincode;
     private double distanceKm;
     private double durationMinutes;
+    private String durationFormatted;
+    private String routeJson;
 }
 
