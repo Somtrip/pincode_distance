@@ -42,18 +42,11 @@ A Spring Boot REST API that calculates **distance** and **duration** between Ind
 
    Update `src/main/resources/application.properties` with your settings:
    ```properties
-   # --- Database ---
-   spring.datasource.url=jdbc:mysql://localhost:3306/pincode_distance?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
-   spring.datasource.username=your_mysql_username
-   spring.datasource.password=your_mysql_password
-   spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+   # Database spring.datasource.username=your_mysql_username
+    spring.datasource.password=your_mysql_password
 
-   # --- JPA ---
-   spring.jpa.hibernate.ddl-auto=update
-   spring.jpa.show-sql=true
-   spring.jpa.properties.hibernate.format_sql=true
-
-   # --- Google Maps API ---
+   
+   # Google Maps API
    google.api.key=your_google_maps_api_key
    ```
 
